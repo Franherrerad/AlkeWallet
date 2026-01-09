@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+body {
+    min-height: 100vh;background: #22C1C3;
+    background: linear-gradient(207deg, rgba(34, 193, 195, 1) 0%, rgba(228, 177, 240, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container,
+.container-mov,
+.glass-card {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.container,
+.container-mov {
+    max-width: 400px;
+}
+
+/* --------------------
+   TÍTULOS
+-------------------- */
+h2,
+h3 {
+    color: #5b21b6;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* --------------------
+   BOTONES
+-------------------- */
+.btn-custom {
+    background: #ffffff;
+    color: #7c3aed;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background: rgba(124, 58, 237, 0.2);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+}
+
+.btn-custom-back {
+    display: block;
+    padding: 12px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #6e7782;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.btn-custom-back:hover {
+    background: rgba(124, 58, 237, 0.2);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.3);
+}
+
+/* --------------------
+   FORMULARIOS
+-------------------- */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #3a0e82;
+}
+
+.form-control {
+    border-radius: 12px;
+    border: 1px solid #ddd6fe;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 3px 3px 5px rgba(119, 75, 123, 0.2),
+                5px 5px 20px rgba(234, 58, 237, 0.15);
+}
+
+/* --------------------
+   LISTAS
+-------------------- */
+.list-group {
+    border-radius: 12px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    color: #5b21b6;
+}
+
+/* --------------------
+   RESPONSIVE
+-------------------- */
+@media (max-width: 576px) {
+    .container,
+    .container-mov,
+    .glass-card {
+        padding: 25px;
+    }
+}
