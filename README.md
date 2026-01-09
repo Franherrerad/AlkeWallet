@@ -26,7 +26,7 @@ siguiendo buenas prácticas de desarrollo frontend.
 
 ## Cómo ejecutar el proyecto
 1. Clonar el repositorio
-2. Abrir `index.html` o `login.html` en el navegador
+2. Abrir `login.html` en el navegador
 3. Usuario de prueba:
    - Email: usuario@wallet.com
    - Contraseña: 1234
